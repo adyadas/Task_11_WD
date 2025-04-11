@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sarkari Result - Clone</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #d80000;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    nav {
+      background-color: black;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .marquee {
+      background-color: yellow;
+      color: red;
+      padding: 10px;
+      font-weight: bold;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .left, .right {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .left h2, .right h2 {
+      color: #d80000;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    ul li a {
+      color: #0000cc;
+      text-decoration: none;
+    }
+
+    ul li a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .left, .right {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SARKARI RESULT</h1>
+    <p>WWW.SARKARIRESULT.COM</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Latest Jobs</a>
+    <a href="#">Admit Card</a>
+    <a href="#">Results</a>
+    <a href="#">Answer Key</a>
+    <a href="#">Syllabus</a>
+    <a href="#">Search</a>
+    <a href="#">Contact Us</a>
+  </nav>
+
+  <div class="marquee">
+    <marquee behavior="scroll" direction="left">UPSC NDA 1 2025 Result Declared | SSC CGL 2024 Notification Released | Bihar Police Constable Exam Postponed</marquee>
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <h2>Latest Jobs</h2>
+      <ul>
+        <li><a href="#">UP Police SI Recruitment 2025</a></li>
+        <li><a href="#">SSC CHSL 2024 Apply Online</a></li>
+        <li><a href="#">Railway RRB Group D New Vacancy</a></li>
+      </ul>
+
+      <h2>Admit Cards</h2>
+      <ul>
+        <li><a href="#">BPSC TRE 3 Admit Card</a></li>
+        <li><a href="#">UPSC NDA Admit Card</a></li>
+        <li><a href="#">SSC GD Constable Admit Card</a></li>
+      </ul>
+
+      <h2>Results</h2>
+      <ul>
+        <li><a href="#">CTET January 2025 Result</a></li>
+        <li><a href="#">Bihar Board 12th Result</a></li>
+        <li><a href="#">SSC MTS Final Result</a></li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <h2>Important Links</h2>
+      <ul>
+        <li><a href="#">All Sarkari Exams</a></li>
+        <li><a href="#">Admission Forms</a></li>
+        <li><a href="#">UP Scholarship 2025</a></li>
+        <li><a href="#">Online Form Status</a></li>
+        <li><a href="#">Railway Jobs</a></li>
+        <li><a href="#">Police Jobs</a></li>
+        <li><a href="#">SSC Jobs</a></li>
+        <li><a href="#">Bank Jobs</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 SarkariResult.com Clone | Designed by Adya Das</p>
+  </footer>
+
+</body>
+</html>
